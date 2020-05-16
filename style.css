@@ -1,0 +1,169 @@
+
+body {
+    background-attachment: scroll;
+}
+
+nav{
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    margin-top: 11px;
+    z-index: 100;
+}
+nav h3{
+    padding-left: 80px;
+    color: white;
+}
+
+nav ul{
+    padding-right: 50px;
+}
+
+nav ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav ul li{
+    list-style: none;
+    line-height: 50%;
+    float: right;
+    display: inline-table;
+}
+
+nav ul li a{
+    padding:29px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    text-decoration: none;
+}
+
+#main-page{
+    background-image: url(http://www.planwallpaper.com/static/images/bicycle-1280x720.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    margin-top: -10px;]
+}
+
+
+#text-margin{
+    margin: 120px;
+    padding-left: 80px;
+}
+
+.protfolio{
+    width: 100%;
+}
+
+.protfolio h1{
+    font-family:'Sacramento', serif; 
+    font-size:60px;
+    margin-top: -100px;
+}
+
+
+#pro-pic{
+    margin: 100px;
+}
+
+#pro-pic img{
+    width: 300px;
+}
+
+#last07{
+    background-image: url(https://i2.wp.com/shydesigns.com/wp-content/uploads/2014/03/Vintage-Wallpapers-Vintage-Backgrounds-5.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+#last07 h1{
+    font-size: 100px;
+    padding-top: 120px;
+    padding-left: 120px;
+    color: black;
+    font-family: 'Sacramento', serif;
+    text-shadow: 15px 15px 15px;
+}
+
+#buttons {
+    margin: 100px;
+}
+
+#buttons a{
+    padding: 47px;
+    
+}
+
+
+.btnnew{
+    padding: 10px 40px;
+    border: 1.5px solid;
+    border-radius: 7px;
+    display: inline-block;
+    background-color: transparent;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    cursor: pointer;
+     
+}
+
+.btnfacebook{
+    border-color: rgb(59, 89, 152);
+    color: rgb(59, 89, 152);
+}
+
+.btnfacebook:hover {
+    background-color: rgb(59, 89, 152);
+    color: rgb(255,255,255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btntwitter{
+    border-color: rgb(0, 172, 237); 
+    color: rgb(0, 172, 237);
+}
+
+.btntwitter:hover{
+    background-color: rgb(0, 172, 237);
+    color: rgb(255,255,255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btnlinkedin{ 
+    border-color: rgb(0, 123, 181); 
+    color:rgb(0, 123, 181);
+}
+
+.btnlinkedin:hover{
+    background-color: rgb(0, 123, 181);
+    color: rgb(255,255,255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btnfreecodecamp{ 
+    border-color: rgb(3, 101, 0); 
+    color:rgb(3, 101, 0);
+}
+
+.btnfreecodecamp:hover{
+    background-color: rgb(3, 101, 0);
+    color: rgb(255,255,255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.carousel-margin{
+    padding: 150px;
+}
